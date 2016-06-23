@@ -1,0 +1,18 @@
+<div class="title">
+  Sopa de letras
+</div>
+<div class="board">
+  {{#each model.soup as |row|}}
+    <div class="row">
+      {{#each row as |letter|}}
+        <div class="letter">{{letter}}</div>
+      {{/each}}
+    </div>
+  {{/each}}
+</div>
+<div class="words">
+  <p>Palabras Ocultas</p>
+  {{#each model.words as |word|}}
+    {{word}}
+  {{/each}}
+</div>

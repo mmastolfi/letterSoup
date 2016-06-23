@@ -1,0 +1,44 @@
+html{
+  background-color: #CCE6FF;
+}
+
+.title{
+  font-size: 32px;
+  font-family: arial;
+  font-weight: bold;
+  text-align: center;
+}
+
+.board{
+  position: absolute;
+  display: table;
+}
+
+.row{
+  float:left;
+  display: table-row;
+  text-align: center;
+  margin-left: 33%;
+}
+
+
+.letter{
+  float:left;
+  display: table-cell;
+  font-size: 24px;
+  font-family: arial;
+  font-weight: bold;
+  line-height: 100px;
+  margin: 10px 10px 0px 0px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+}
+
+.words{
+  font-size: 32px;
+  font-family: arial;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 700px;
+}

@@ -1,7 +1,7 @@
 # Alphabet-soup
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+##Generador de sopas de letras usando como origen de las palabras el servidor node del proyecto <b>randomWords</b>
+##Resultado es sopa de letras de 15x15 con cinco palabras con longitud entre 4 y 10 caracteres
 
 ## Prerequisites
 
